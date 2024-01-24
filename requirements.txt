@@ -4,3 +4,6 @@ scikit-learn
 transformers
 nltk
 plotly
+nbformat
+tensorflow[and-cuda]
+emoji
