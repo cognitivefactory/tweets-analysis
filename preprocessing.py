@@ -1,9 +1,6 @@
 import re
 import string
 
-import emoji
-
-import spacy
 
 import nltk
 from nltk.corpus import stopwords
