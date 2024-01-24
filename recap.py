@@ -19,6 +19,8 @@ def load_df():
     df_label : pd.DataFrame = pd.read_csv("data_recap/bdd_labeled.csv")
     df_gen   : pd.DataFrame = pd.read_csv("data_recap/tweets_genere.txt", sep="\t", names=["topic","sentiment","text"])
 
+    # suppression des autres sentiments testé lors de la génération
+    df_gen = df_gen[df_gen["sentiment"].isin(["positif","neutre","négatif"])]
 
     mapping_gen_sentiment = {
         "positif": 1, "neutre": 0, "négatif":-1

@@ -3,3 +3,4 @@ datasets
 scikit-learn
 transformers
 nltk
+plotly
