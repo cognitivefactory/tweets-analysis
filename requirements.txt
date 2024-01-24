@@ -1,3 +1,5 @@
+--extra-index-url https://download.pytorch.org/whl/cu118
+
 seaborn
 datasets
 scikit-learn
@@ -7,3 +9,7 @@ plotly
 nbformat
 tensorflow[and-cuda]
 emoji
+torch
+torch
+torchaudio
+torchvision
